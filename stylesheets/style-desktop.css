@@ -1,7 +1,8 @@
+/* Author: Remco Vogelzang */
 /* Semantic elements */
 body {
+    min-width: 980px;
     width: 100%;
-    margin: auto;
     font-family: sans-serif;
     padding-top: 60px;
     padding-bottom: 32px;
