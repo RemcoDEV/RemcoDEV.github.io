@@ -37,7 +37,7 @@ footer {
 }
 
 nav, footer {
-    background: linear-gradient(to right, lightblue , lightgrey);
+    background: linear-gradient(to right, rgb(173, 216, 230) , rgb(211, 211, 211));
 }
 
 /* Gallery */
