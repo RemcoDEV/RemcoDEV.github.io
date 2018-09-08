@@ -8,10 +8,9 @@ function registerEvents() {
 function getAge() {
     var currentDate = new Date();
     var birthday = new Date("1998-07-04");
-
     var age = currentDate.getFullYear() - birthday.getFullYear();
 
-    if ((currentDate.getDay() < birthday.getDay() && currentDate.getMonth() == birthday.getMonth()) || currentDate.getMonth() < birthday.getMonth())
+    if ((currentDate.getDate() < birthday.getDate() && currentDate.getMonth() == birthday.getMonth()) || currentDate.getMonth() < birthday.getMonth())
         age--;
 
     document.getElementById("age").innerHTML = age;
