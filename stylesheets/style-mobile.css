@@ -89,3 +89,8 @@ ul {
     margin: 10px;
     width: 700px;
 }
+
+.customlinkstyle {
+    text-decoration: none;
+    font-style: italic;
+}
