@@ -14,7 +14,6 @@ function getAge() {
     if ((currentDate.getDay() < birthday.getDay() && currentDate.getMonth() == birthday.getMonth()) || currentDate.getMonth() < birthday.getMonth())
         age--;
 
-console.log(document.getElementById("age").innerHTML);
     document.getElementById("age").innerHTML = age;
 }
 
