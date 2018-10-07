@@ -1,8 +1,7 @@
 /* Author: Remco Vogelzang */
 /* Semantic elements */
 body {
-    width: 100%;
-    min-width: 692px;
+    min-width: 900px;
     font-family: sans-serif;
     margin-top: 0;
     padding-bottom: 32px;
@@ -42,7 +41,7 @@ nav, footer {
 
 /* Gallery */
 .gallery-large, .gallery-small {
-    width: 900px;
+    width: 100%;
     border: 1px solid grey;
     background-color: rgba(211, 211, 211, 0.2);
     margin: 0 5px 10px 0;
