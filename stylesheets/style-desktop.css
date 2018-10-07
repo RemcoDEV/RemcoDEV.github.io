@@ -41,18 +41,27 @@ nav, footer {
 }
 
 /* Gallery */
-.gallery {
+.gallery-large {
     width: 945px;
-    border: 1px solid grey;
-    background-color: rgba(211, 211, 211, 0.2);
-    overflow: auto;
-    margin-bottom: 10px;
 }
 
-.gallery img {
-    float: right;
+.gallery-small {
+    width: 345px;
+}
+
+.gallery-large, .gallery-small {
+    border: 1px solid grey;
+    background-color: rgba(211, 211, 211, 0.2);
+    margin: 0 5px 10px 0;
+    float: left;
+    overflow: auto;
+    height: 200px;
+}
+
+.gallery-large img {
     width: 316px;
     height: 200px;
+    float: right;
 }
 
 /* General text style */
