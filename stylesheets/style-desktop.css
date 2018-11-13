@@ -99,7 +99,13 @@ ul {
     width: 800px;
 }
 
-.customlinkstyle {
+.link1 {
  text-decoration: none;
  font-style: italic;
+ color: black;
+}
+
+.link2 {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
 }
