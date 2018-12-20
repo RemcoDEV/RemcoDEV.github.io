@@ -1,3 +1,4 @@
+// Author: Remco Vogelzang
 window.addEventListener("load", registerEvents, false);
 
 function registerEvents() {
@@ -13,7 +14,8 @@ function getAge() {
     if ((currentDate.getDate() < birthday.getDate() && currentDate.getMonth() == birthday.getMonth()) || currentDate.getMonth() < birthday.getMonth())
         age--;
 
-    document.getElementById("age").innerHTML = age;
+    if (document.getElementById("age") != null)
+        document.getElementById("age").innerHTML = age;
 }
 
 function updateFooter() {
