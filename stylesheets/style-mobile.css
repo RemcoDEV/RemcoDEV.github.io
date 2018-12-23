@@ -107,3 +107,31 @@ ul {
     text-decoration: none;
     color: rgb(0, 110, 255);
 }
+
+/* Skills Progress Bars */
+li {
+    padding: 2px;
+    width: 400px;
+    background-color: grey;
+    list-style: none;
+    margin: 5px 0;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.greenbackground {
+    background:linear-gradient(to right, green 85%, grey 100%);
+    color: white;
+}
+
+.yellowbackground {
+    background: linear-gradient(to right, yellow 55%, grey 65%);
+    color: black;
+}
+
+.redbackground {
+    background: linear-gradient(to right, red 20%, grey 30%);
+    text-align: left;
+    padding-left: 5px;
+    color: white;
+}
