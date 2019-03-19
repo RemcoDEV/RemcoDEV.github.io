@@ -1,7 +1,7 @@
 /* Author: Remco Vogelzang */
 /* Semantic elements */
 body {
-    min-width: 900px;
+    min-width: 1000px;
     font-family: sans-serif;
     padding-bottom: 32px;
     width: 100%;
@@ -51,7 +51,7 @@ nav, footer {
 }
 
 .gallery-large {
-    height: 200px;
+    height: 250px;
 }
 
 .gallery-small {
@@ -62,6 +62,14 @@ nav, footer {
     width: 316px;
     height: 200px;
     float: right;
+}
+
+.gallery-large p, .gallery-small p {
+    margin-top: 10px;
+}
+
+.employer, .where {
+    font-style: italic;
 }
 
 /* General text style */
@@ -80,6 +88,13 @@ article h3 {
     font-size: 25px; 
     font-weight: 600; 
     line-height: 25px; 
+    margin: 10px 5px 0 5px;
+}
+
+article h5 {
+    font-size: 15px; 
+    font-weight: 400; 
+    line-height: 15px; 
     margin: 10px 5px 0 5px;
 }
 

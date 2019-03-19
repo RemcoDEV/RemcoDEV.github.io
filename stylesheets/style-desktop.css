@@ -42,11 +42,13 @@ nav, footer {
 
 /* Gallery */
 .gallery-large {
-    width: 945px;
+    width: 1200px;
+    height: 200px;
 }
 
 .gallery-small {
     width: 345px;
+    height: 300px;
 }
 
 .gallery-large, .gallery-small {
@@ -55,13 +57,20 @@ nav, footer {
     margin: 0 5px 10px 0;
     float: left;
     overflow: auto;
-    height: 200px;
 }
 
 .gallery-large img {
     width: 316px;
     height: 200px;
     float: right;
+}
+
+.gallery-large p, .gallery-small p {
+    margin-top: 10px;
+}
+
+.employer, .where {
+    font-style: italic;
 }
 
 /* General text style */
@@ -80,6 +89,13 @@ article h3 {
     font-size: 25px; 
     font-weight: 600; 
     line-height: 25px; 
+    margin: 10px 5px 0 5px;
+}
+
+article h5 {
+    font-size: 15px; 
+    font-weight: 400; 
+    line-height: 15px; 
     margin: 10px 5px 0 5px;
 }
 
@@ -137,4 +153,10 @@ li {
     text-align: left;
     padding-left: 5px;
     color: white;
+}
+
+/* Other */
+.skills {
+    overflow: auto;
+    float: left;
 }
