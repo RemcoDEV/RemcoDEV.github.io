@@ -1,0 +1,12 @@
+<div id="mainContainer" fxLayout="column">
+    <mat-toolbar fxFlex="56px">
+        <a href="./index">Home</a>
+        <a href="./portfolio">Portfolio</a>
+        <a href="./courses">Courses</a>
+        <a href="./skills">Skills</a>
+    </mat-toolbar>
+    <div id="contentContainer" fxFlex>
+        <router-outlet></router-outlet>
+    </div>
+    <footer fxFlex="25px" fxFlexFill>Copyright &copy; Remco Vogelzang 2018 - {{getYear()}}</footer>
+</div>
