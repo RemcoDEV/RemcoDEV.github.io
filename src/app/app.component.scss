@@ -29,10 +29,6 @@ p {
     margin: 0;
 }
 
-@media screen and (max-width: 845px) {
-    
-  }
-
 #mobileMenuContainer a {
     font-style: normal;
     text-align: center;
@@ -43,4 +39,8 @@ p {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+#menuButton {
+    border-radius: 0;
 }
