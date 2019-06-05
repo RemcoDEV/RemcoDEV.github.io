@@ -28,3 +28,19 @@ mat-toolbar a {
 p {
     margin: 0;
 }
+
+@media screen and (max-width: 845px) {
+    
+  }
+
+#mobileMenuContainer a {
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+#mobileMenuContainer button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

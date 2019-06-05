@@ -1,11 +1,26 @@
-<div id="mainContainer" fxLayout="column">
-    <mat-toolbar fxFlex="56px">
+<div id="mobileMenuContainer" *ngIf="menuOpen" fxLayout="column" fxLayoutAlign="center" fxFill>
+    <button mat-icon-button color="primary" aria-label="Sluiten" (click)="openMenuOverlay(false)" fxFlex="40px">
+        <mat-icon>close</mat-icon>
+    </button>
+    <span fxFlex></span>
+    <a [routerLink]="['/index/']" (click)="openMenuOverlay(false)">Home</a>
+    <mat-divider></mat-divider>
+    <a [routerLink]="['/portfolio/']" (click)="openMenuOverlay(false)">Portfolio</a>
+    <mat-divider></mat-divider>
+    <a [routerLink]="['/courses/']" (click)="openMenuOverlay(false)">Courses</a>
+    <mat-divider></mat-divider>
+    <a [routerLink]="['/skills/']" (click)="openMenuOverlay(false)">Skills</a>
+    <span fxFlex></span>
+</div>
+<div id="mainContainer" fxLayout="column" *ngIf="!menuOpen">
+    <mat-toolbar fxFlex="56px" *ngIf="!mobileDevice">
         <span fxFlex></span>
         <a [routerLink]="['/index/']">Home</a>
         <a [routerLink]="['/portfolio/']">Portfolio</a>
         <a [routerLink]="['/courses/']">Courses</a>
         <a [routerLink]="['/skills/']">Skills</a>
     </mat-toolbar>
+        <button mat-raised-button (click)="openMenuOverlay(true)" *ngIf="mobileDevice" fxFlex="56px">Menu</button>
     <div id="contentContainer" fxFlex>
         <router-outlet></router-outlet>
     </div>
