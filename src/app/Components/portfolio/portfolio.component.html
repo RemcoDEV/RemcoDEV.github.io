@@ -1,0 +1,17 @@
+<div id="container" fxLayoutAlign="center">
+    <mat-card>
+        <mat-card-title>{{portfolio[index].title}}</mat-card-title>
+        <mat-card-subtitle><b>Employer:</b> {{portfolio[index].employer}}</mat-card-subtitle>
+        <img mat-card-image src="{{portfolio[index].imageURL}}" alt="Photo of project">
+        <mat-card-content>{{portfolio[index].description}}</mat-card-content>
+        <mat-card-actions>
+            <button mat-icon-button aria-label="Example icon-button with a heart icon" (click)="previous()">
+                <mat-icon>arrow_back</mat-icon>
+            </button>
+            <span fxFlex></span>
+            <button mat-icon-button aria-label="Example icon-button with a heart icon" (click)="next()">
+                <mat-icon>arrow_forward</mat-icon>
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

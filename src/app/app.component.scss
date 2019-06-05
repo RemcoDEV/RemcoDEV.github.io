@@ -1,0 +1,46 @@
+mat-toolbar, footer {
+    background: linear-gradient(to right, rgb(173, 216, 230) , rgb(211, 211, 211));
+}
+
+footer {
+    text-align: center;
+}
+
+mat-toolbar a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; 
+    font-size: 40px; 
+    font-weight: 800;
+    margin: 0 20px;
+    font-style: normal;
+}
+
+#contentContainer {
+    background: linear-gradient(to right, rgba(173, 216, 230, 0.8) , rgba(211, 211, 211, 0.8));
+    padding: 10px;
+}
+
+#mainContainer {
+    height: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 845px) {
+    
+  }
+
+#mobileMenuContainer a {
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+#mobileMenuContainer button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
