@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation, HostListener } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +19,7 @@ export class AppComponent {
   }
 
   getYear() {
-      return new Date().getFullYear();
+    return new Date().getFullYear();
   }
 
   onResize(event) {

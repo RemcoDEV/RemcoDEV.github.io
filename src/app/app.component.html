@@ -20,7 +20,8 @@
         <a [routerLink]="['/courses/']">Courses</a>
         <a [routerLink]="['/skills/']">Skills</a>
     </mat-toolbar>
-        <button mat-raised-button id="menuButton" (click)="openMenuOverlay(true)" *ngIf="mobileDevice" fxFlex="56px">Menu</button>
+    <button mat-raised-button id="menuButton" (click)="openMenuOverlay(true)" *ngIf="mobileDevice"
+        fxFlex="56px">Menu</button>
     <div id="contentContainer" fxFlex>
         <router-outlet></router-outlet>
     </div>
