@@ -12,13 +12,13 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  getAge(){
+  getAge() {
     var currentDate = new Date();
     var birthday = new Date("1998-07-04");
     var age = currentDate.getFullYear() - birthday.getFullYear();
 
     if ((currentDate.getDate() < birthday.getDate() && currentDate.getMonth() == birthday.getMonth()) || currentDate.getMonth() < birthday.getMonth())
-        age--;
+      age--;
 
     return age;
   }

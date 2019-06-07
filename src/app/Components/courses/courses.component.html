@@ -1,7 +1,13 @@
-<div id="container" fxLayout="row wrap" fxLayoutAlign="center">
+<h2>
+  Courses
+</h2>
+<p>A list of courses to get a better idea of my personal interests. All courses of Utrecht University are rewarded with
+  ECTS (and a grade) that contributed to my Bachelor Degree Computer Science. In most other cases, a certificate is
+  provided.</p>
+<div fxLayout="row wrap" fxLayoutAlign="center">
   <mat-card *ngFor="let course of courses" fxFlex="300px" fxFlex.xs="100">
-      <mat-card-title>{{course.name}}</mat-card-title>
-      <mat-card-subtitle>{{course.organization}}</mat-card-subtitle>
-      <mat-card-content>{{course.description}}</mat-card-content>
+    <mat-card-title>{{course.name}}</mat-card-title>
+    <mat-card-subtitle>{{course.organization}}</mat-card-subtitle>
+    <mat-card-content>{{course.description}}</mat-card-content>
   </mat-card>
 </div>
