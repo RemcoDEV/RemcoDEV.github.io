@@ -15,7 +15,7 @@ export class AppComponent {
   menuOpen: boolean = false;
 
   constructor() {
-    this.mobileDevice = self.innerWidth <= 845;
+    this.mobileDevice = window.innerWidth <= 845;
   }
 
   getYear() {
@@ -23,7 +23,7 @@ export class AppComponent {
   }
 
   onResize(event) {
-    this.mobileDevice = self.innerWidth <= 845;
+    this.mobileDevice = window.innerWidth <= 845;
   }
 
   openMenuOverlay(open: boolean) {
