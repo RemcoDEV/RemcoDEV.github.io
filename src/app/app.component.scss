@@ -6,7 +6,7 @@ footer {
     text-align: center;
 }
 
-mat-toolbar a {
+mat-toolbar a, mat-toolbar p {
     text-transform: uppercase;
     text-decoration: none;
     color: white; 
@@ -43,4 +43,15 @@ p {
 
 #menuButton {
     border-radius: 0;
+}
+
+mat-toolbar p {
+    align-content: center;
+    margin: auto;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
