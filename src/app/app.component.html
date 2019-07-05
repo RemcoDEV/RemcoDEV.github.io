@@ -20,10 +20,15 @@
         <a [routerLink]="['/courses/']">Courses</a>
         <a [routerLink]="['/skills/']">Skills</a>
     </mat-toolbar>
-    <button mat-raised-button id="menuButton" (click)="openMenuOverlay(true)" *ngIf="mobileDevice"
-        fxFlex="56px">Menu</button>
+    <mat-toolbar id="menuButton" (click)="openMenuOverlay(true)" *ngIf="mobileDevice" fxFlex="56px">
+        <p>Menu</p>
+    </mat-toolbar>
     <div id="contentContainer" fxFlex>
         <router-outlet></router-outlet>
+        <button mat-mini-fab color="primary" aria-label="Back to top" *ngIf="showScrollToTopButton"
+            (click)="scrollToTop()" id="scrollToTopButton">
+            <mat-icon>arrow_drop_up</mat-icon>
+        </button>
     </div>
     <footer fxFlex="25px" fxLayoutAlign="center center">
         Copyright &copy; Remco Vogelzang 2018 - {{getYear()}}
