@@ -11,11 +11,11 @@
             <img mat-card-image src="{{portfolio[index].imageURL}}" alt="Photo of project">
             <mat-card-content>{{portfolio[index].description}}</mat-card-content>
             <mat-card-actions>
-                <button mat-icon-button aria-label="Example icon-button with a heart icon" (click)="previous()">
+                <button mat-icon-button aria-label="Back button" (click)="previous()">
                     <mat-icon>arrow_back</mat-icon>
                 </button>
                 <span fxFlex></span>
-                <button mat-icon-button aria-label="Example icon-button with a heart icon" (click)="next()">
+                <button mat-icon-button aria-label="Next button" (click)="next()">
                     <mat-icon>arrow_forward</mat-icon>
                 </button>
             </mat-card-actions>
