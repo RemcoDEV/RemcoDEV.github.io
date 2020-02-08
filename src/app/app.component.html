@@ -3,25 +3,25 @@
         <mat-icon>close</mat-icon>
     </button>
     <span fxFlex></span>
-    <a [routerLink]="['/index/']" (click)="openMenuOverlay(false)">Home</a>
+    <a [routerLink]="['/index/']" (click)="openMenuOverlay(false)">{{'Home' | translate}}</a>
     <mat-divider></mat-divider>
-    <a [routerLink]="['/portfolio/']" (click)="openMenuOverlay(false)">Portfolio</a>
+    <a [routerLink]="['/portfolio/']" (click)="openMenuOverlay(false)">{{'Portfolio' | translate}}</a>
     <mat-divider></mat-divider>
-    <a [routerLink]="['/courses/']" (click)="openMenuOverlay(false)">Courses</a>
+    <a [routerLink]="['/courses/']" (click)="openMenuOverlay(false)">{{'Courses' | translate}}</a>
     <mat-divider></mat-divider>
-    <a [routerLink]="['/skills/']" (click)="openMenuOverlay(false)">Skills</a>
+    <a [routerLink]="['/skills/']" (click)="openMenuOverlay(false)">{{'Skills' | translate}}</a>
     <span fxFlex></span>
 </div>
 <div id="mainContainer" fxLayout="column" *ngIf="!menuOpen">
     <mat-toolbar fxFlex="56px" *ngIf="!mobileDevice">
         <span fxFlex></span>
-        <a [routerLink]="['/index/']">Home</a>
-        <a [routerLink]="['/portfolio/']">Portfolio</a>
-        <a [routerLink]="['/courses/']">Courses</a>
-        <a [routerLink]="['/skills/']">Skills</a>
+        <a [routerLink]="['/index/']">{{'Home' | translate}}</a>
+        <a [routerLink]="['/portfolio/']">{{'Portfolio' | translate}}</a>
+        <a [routerLink]="['/courses/']">{{'Courses' | translate}}</a>
+        <a [routerLink]="['/skills/']">{{'Skills' | translate}}</a>
     </mat-toolbar>
     <mat-toolbar id="menuButton" (click)="openMenuOverlay(true)" *ngIf="mobileDevice" fxFlex="56px">
-        <p>Menu</p>
+        <p>{{'Menu' | translate}}</p>
     </mat-toolbar>
     <div id="contentContainer" fxFlex>
         <router-outlet></router-outlet>
@@ -30,7 +30,10 @@
             <mat-icon>arrow_drop_up</mat-icon>
         </button>
     </div>
-    <footer fxFlex="25px" fxLayoutAlign="center center">
+    <footer fxLayoutAlign="column center">
+        <span fxFlex></span>
         Copyright &copy; Remco Vogelzang 2018 - {{getYear()}}
+        <span fxFlex></span>
+        <app-select-language></app-select-language>
     </footer>
 </div>

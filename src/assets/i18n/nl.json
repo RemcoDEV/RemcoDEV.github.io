@@ -1,3 +1,11 @@
 {
-    "": ""
+    "Courses": "Cursussen",
+    "CoursesDescription": "Hier beneden vind je een lijst met cursussen, zodat je een beter idee krijgt van mijn interessegebied. Alle cursussen van de Universiteit Utrecht werden beloond met 7.5 ECTS, die meetelden voor mijn Bachelor Informatica. In de andere gevallen werd een certificaat uitgereikt.",
+    "PageNotFound": "Deze pagina kon niet gevonden worden.",
+    "Skills": "Vaardigheden",
+    "SkillsDescription": "Een lijst met technologieën, frameworks en programmeertalen waar ik ervaring mee heb.",
+    "Portfolio": "Portfolio",
+    "PortfolioDescription": "Een aantal van de projecten waar ik aan gewerkt hebt zijn te vinden op deze pagina. Niet alle projecten staan hiertussen, omdat ze geheim zijn.",
+    "Home": "Home",
+    "Menu": "Menu"
 }

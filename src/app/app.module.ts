@@ -12,6 +12,7 @@ import { NotfoundComponent } from './Components/notfound/notfound.component';
 import { MaterialModule } from './material.module';
 import { FlexModule } from '@angular/flex-layout';
 import { I18nModule } from './i18n/i18n.module';
+import { SelectLanguageComponent } from './Components/select-language/select-language.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { I18nModule } from './i18n/i18n.module';
     SkillsComponent,
     CoursesComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    SelectLanguageComponent
   ],
   imports: [
     BrowserModule,

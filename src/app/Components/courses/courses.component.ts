@@ -27,7 +27,7 @@ export class CoursesComponent implements OnInit {
     { name: "Human, Society and ICT", description: "Information science focused course where I learned about persuasive technology, applied data science and social media.", organization: Organization.UU },
     { name: "Software Testing and Verification", description: "Testing software is incredibly important.", organization: Organization.UU },
     { name: "E-Business", description: "Learned how to set up an E-business and learned about E-commerce and business models.", organization: Organization.UU },
-    { name: "Webtechnology", description: "Learned how to build a client-server application with HTML5, CSS3, JavaScript, jQuery, JSON, Node.js, Express.js, AJAX and Jade. Besides, I learned about Adaptive Web, Semantic Web and Social Web.", organization: Organization.UU },  
+    { name: "Webtechnology", description: "Learned how to build a client-server application with HTML5, CSS3, JavaScript, jQuery, JSON, Node.js, Express.js, AJAX and Jade. Besides, I learned about Adaptive Web, Semantic Web and Social Web.", organization: Organization.UU },
   ];
 
   constructor() { }
