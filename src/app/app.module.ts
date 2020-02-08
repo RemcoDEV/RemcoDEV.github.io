@@ -11,6 +11,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 import { MaterialModule } from './material.module';
 import { FlexModule } from '@angular/flex-layout';
+import { I18nModule } from './i18n/i18n.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FlexModule } from '@angular/flex-layout';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexModule
+    FlexModule,
+    I18nModule
   ],
   providers: [],
   bootstrap: [AppComponent]
