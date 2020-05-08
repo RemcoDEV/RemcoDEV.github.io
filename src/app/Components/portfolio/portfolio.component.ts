@@ -12,6 +12,7 @@ export class PortfolioComponent implements OnInit {
     { title: "Bachelor End Project", employer: Employer.NS, description: "In a group of 12 people (10 developers, 2 artists) we've created a serious game for the Dutch Railways (NS) in 5 months (1 semester) using SCRUM with me as Scrum Master.", imageURL: "assets/projectimages/project4.png" },
     { title: "Recreate an Old Retro Game", employer: Employer.UU, description: "Together with 5 other students we've recreated an old retro game. This was created with C# and MonoGame in Visual Studio. Features: online/offline multiplayer, highscores, play against the computer. This is created in 10 weeks.", imageURL: "assets/projectimages/project1.png" },
     { title: "RailCube", employer: Employer.SL, description: "RailCube consists of a desktop, mobile and web application. It features planning and management tools for Railway Undertakings throughout Europe.", imageURL: "assets/projectimages/project2.jpg" },
+    { title: "Color Disco", employer: Employer.RJG, description: "My first own game that actually went live on the Google Play Store.", imageURL: "assets/projectimages/project6.png" }
   ];
 
   index = 0;
@@ -50,5 +51,6 @@ export enum Employer {
   ACVV = "Autocentrum Van Vliet",
   NS = "Dutch Railways",
   UU = "Utrecht University",
-  SL = "Softlogix"
+  SL = "Softlogix",
+  RJG = "Red Jellyfish Games"
 }
