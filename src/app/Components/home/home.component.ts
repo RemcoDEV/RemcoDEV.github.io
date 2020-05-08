@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, LOCALE_ID, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(@Inject(LOCALE_ID) protected local: string) {
+  }
 
   ngOnInit() {
+    var script = document.createElement('script');
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    document.getElementsByTagName('head')[0].appendChild(script);
   }
 
   getAge() {
