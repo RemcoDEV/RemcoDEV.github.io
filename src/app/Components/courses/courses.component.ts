@@ -11,7 +11,7 @@ export class CoursesComponent implements OnInit {
     { name: "Multithreaded Programming", description: "Such as programming on the GPU with OpenCL.", organization: Organization.UU },
     { name: "Information Retrieval and Data Mining", description: "This included building a search engine for cars with techniques such as term frequency, inverse document frequency and Jaccard index.", organization: Organization.UU },
     { name: "Datastructures", description: "Learned all kinds of search algorithms such as quicksort, counting sort, selection-sort and bitwise operations and how to program efficiently.", organization: Organization.UU },
-    { name: "Software Design", description: "Learned some useful design patterns such as Facade, Adapter, Strategy, Bridge, Abstract Factory, Decorator and Observer.", organization: Organization.UU },
+    { name: "Software Design", description: "Learned about design patterns, Hoare Logic, Waterfall, Unified Process, requirements, UML and GRASP.", organization: Organization.UU },
     { name: "Cognition and Emotion", description: "Cognitive psychology applied to Human Computer Interaction. In teams of 5, we have developed a Virtual Reality Language Learning application, which takes cognitive and emotional aspects into account by using Affective Computing.", organization: Organization.UU },
     { name: "Interaction Technology", description: "Soldering and programming with an Arduino. For example, in teams of 2 we had to make a smart toilet freshner and a automatic watering plant (Internet of Things).", organization: Organization.UU },
     { name: "Programming", description: "Learned to program in C# by making Pong, Tetris and TickTick.", organization: Organization.UU },
