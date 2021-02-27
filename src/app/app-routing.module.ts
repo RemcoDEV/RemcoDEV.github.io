@@ -7,6 +7,7 @@ import { SkillsComponent } from './Components/skills/skills.component';
 import { NotfoundComponent } from './Components/notfound/notfound.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'index', component: HomeComponent },
   { path: 'courses', component: CoursesComponent },
   { path: 'portfolio', component: PortfolioComponent },
